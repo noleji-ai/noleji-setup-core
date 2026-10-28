@@ -1,0 +1,105 @@
+[
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "foundations",
+    "description": "파일 변경 이력을 관리합니다.",
+    "requires": [],
+    "guideUrl": "https://git-scm.com/download/mac",
+    "installMode": "homebrew"
+  },
+  {
+    "id": "node",
+    "name": "Node.js",
+    "category": "foundations",
+    "description": "개발 도구를 실행하는 환경입니다.",
+    "requires": [],
+    "guideUrl": "https://nodejs.org/en/download",
+    "installMode": "homebrew"
+  },
+  {
+    "id": "uv",
+    "name": "uv",
+    "category": "foundations",
+    "description": "Python 도구를 설치하고 실행합니다.",
+    "requires": [],
+    "guideUrl": "https://docs.astral.sh/uv/getting-started/installation/",
+    "installMode": "homebrew"
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "category": "agents",
+    "description": "코딩 작업을 돕는 AI 도구입니다. 설치 후 별도 로그인이 필요합니다.",
+    "requires": [
+      "node"
+    ],
+    "guideUrl": "https://developers.openai.com/codex/cli/",
+    "installMode": "npm"
+  },
+  {
+    "id": "claude",
+    "name": "Claude Code",
+    "category": "agents",
+    "description": "터미널에서 사용하는 AI 코딩 도구입니다. 설치 후 별도 로그인이 필요합니다.",
+    "requires": [],
+    "guideUrl": "https://code.claude.com/docs/en/setup",
+    "installMode": "homebrew-cask"
+  },
+  {
+    "id": "noleji-starter",
+    "name": "놀리지 시작 스킬",
+    "category": "skills",
+    "description": "Codex와 Claude Code에서 함께 쓸 수 있는 로컬 시작 스킬입니다.",
+    "requires": [],
+    "guideUrl": "",
+    "installMode": "bundle"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "category": "knowledge",
+    "description": "내 문서를 읽고 연결하는 메모 앱입니다.",
+    "requires": [],
+    "guideUrl": "https://obsidian.md/download",
+    "installMode": "homebrew-cask"
+  },
+  {
+    "id": "graphify",
+    "name": "Graphify",
+    "category": "knowledge",
+    "description": "문서 관계를 그래프로 살펴보는 도구입니다. AI 추출은 사용자가 별도로 설정하고 실행해야 합니다.",
+    "requires": [
+      "uv"
+    ],
+    "guideUrl": "https://github.com/Graphify-Labs/graphify",
+    "installMode": "uv-tool"
+  },
+  {
+    "id": "wiki",
+    "name": "내 지식 보관함",
+    "category": "knowledge",
+    "description": "문서와 프로젝트를 정리하고 명시적인 링크로 연결합니다.",
+    "requires": [],
+    "guideUrl": "",
+    "installMode": "scaffold"
+  },
+  {
+    "id": "browser-tools",
+    "name": "브라우저 도구",
+    "category": "extras",
+    "description": "브라우저 자동화 도구를 선택해 추가할 수 있습니다.",
+    "requires": [],
+    "guideUrl": "https://playwright.dev/",
+    "installMode": "guide"
+  },
+  {
+    "id": "media-tools",
+    "name": "미디어 도구",
+    "category": "extras",
+    "description": "이미지와 영상 작업에 맞는 도구를 선택해 추가할 수 있습니다.",
+    "requires": [],
+    "guideUrl": "https://ffmpeg.org/download.html",
+    "installMode": "guide"
+  }
+]
